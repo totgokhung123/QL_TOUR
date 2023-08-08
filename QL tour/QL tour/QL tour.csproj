@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF0D91A4-511E-4B19-B856-5F9D9BD6C2C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QL_tour</RootNamespace>
+    <AssemblyName>QL tour</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words">
+      <HintPath>C:\Users\ADMIN\Downloads\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomParameter.cs" />
+    <Compile Include="database.cs" />
+    <Compile Include="frmcapnhatHOADON.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcapnhatHOADON.Designer.cs">
+      <DependentUpon>frmcapnhatHOADON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdattour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdattour.Designer.cs">
+      <DependentUpon>frmdattour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDOIMATKHAU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDOIMATKHAU.Designer.cs">
+      <DependentUpon>frmDOIMATKHAU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHOADON.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHOADON.Designer.cs">
+      <DependentUpon>frmHOADON.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKH.Designer.cs">
+      <DependentUpon>frmKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNV.Designer.cs">
+      <DependentUpon>frmNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmQLKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmQLKH.Designer.cs">
+      <DependentUpon>FrmQLKH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLNV.Designer.cs">
+      <DependentUpon>frmQLNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQLTOUR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQLTOUR.Designer.cs">
+      <DependentUpon>frmQLTOUR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTHONGTINDATTOUR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTHONGTINDATTOUR.Designer.cs">
+      <DependentUpon>frmTHONGTINDATTOUR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTOUR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTOUR.Designer.cs">
+      <DependentUpon>frmTOUR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUSER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUSER.Designer.cs">
+      <DependentUpon>frmUSER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportExtensionMethod.cs" />
+    <EmbeddedResource Include="frmcapnhatHOADON.resx">
+      <DependentUpon>frmcapnhatHOADON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdattour.resx">
+      <DependentUpon>frmdattour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDOIMATKHAU.resx">
+      <DependentUpon>frmDOIMATKHAU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHOADON.resx">
+      <DependentUpon>frmHOADON.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKH.resx">
+      <DependentUpon>frmKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNV.resx">
+      <DependentUpon>frmNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmQLKH.resx">
+      <DependentUpon>FrmQLKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLNV.resx">
+      <DependentUpon>frmQLNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQLTOUR.resx">
+      <DependentUpon>frmQLTOUR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTHONGTINDATTOUR.resx">
+      <DependentUpon>frmTHONGTINDATTOUR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTOUR.resx">
+      <DependentUpon>frmTOUR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUSER.resx">
+      <DependentUpon>frmUSER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201623.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photography-hạ-long-bay-boat-ha-long-bay-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tour-du-lịch-Dà-Nẵng-_-Du-lịch-Lion-Trip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\z4559454237880_92f78dbf058fee0579c603e587288d10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

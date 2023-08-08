@@ -1,0 +1,25 @@
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\bin\Debug\QL tour.exe.config
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\bin\Debug\QL tour.exe
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\bin\Debug\QL tour.pdb
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.csproj.AssemblyReference.cache
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmMain.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.Properties.Resources.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.csproj.GenerateResource.cache
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.csproj.CoreCompileInputs.cache
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.exe
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.pdb
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmQLNV.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmNV.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.FrmQLKH.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmKH.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmQLTOUR.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmTOUR.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmUSER.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmHOADON.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmcapnhatHOADON.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmdattour.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmTHONGTINDATTOUR.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL_tour.frmDOIMATKHAU.resources
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\bin\Debug\Aspose.Words.dll
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.csproj.ResolveComReference.cache
+E:\CNPM\file chuẩn nhóm 17\demo\QL tour\QL tour\obj\Debug\QL tour.csproj.CopyComplete
